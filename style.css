@@ -1,0 +1,50 @@
+html {
+    color: #ffffff;
+    background-color: #00a;
+}
+
+h1 {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    width: fit-content;
+    background-color: #aaa;
+    color: #00a;
+    font-size: 1em;
+    font-family: 'Press Start 2P';
+    margin: auto;
+}
+
+p, td {
+    font-size: 1em;
+    font-family: 'Press Start 2P';
+    line-height: 160%;
+}
+
+#text {
+    margin: auto;
+    width: 64%;
+    height: 40vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+#content {
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+a {
+    color: inherit;
+
+}
+
+table {
+    border: 0px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: fit-content;
+}

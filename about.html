@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="content">
+        <div style="padding: 3vw">
+        <h1 style="float: left"><a href="index.html" style="text-decoration:none">Go Home</a></h1>
+        <h1 style="float: right"> About Me </h1>
+        </div>
+        <p>Hello! My name is Keith Tweed, and I'm a university student studying Computing Science at the University of Alberta.</p>
+        <table>
+            <tr>
+                <td>GitHub:</td>
+                <td><a href="https://github.com/keithtweed">github.com/keithtweed</a></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><a href="#" id="m">webcontact 0x40 system32 0x2E ca</a></td>
+            </tr>
+        </table>
+        
+        <p>My hobbies include coding, amateur radio, fountain pens, mechanical keyboards, gaming, and tea.</p>
+        
+        <p>I currently have Basic with Honours </p>
+    </div>
+    <script>
+        /* Code to hide email address courtesy of Matthew Thomas (matthewthom.as) */
+        var u = "webcontact";
+        var d = "system32.ca";
+
+        var e = document.getElementById("m");
+
+        e.href = `mailto:${u}@${d}`;
+    </script>
+</body>
+
+</html>
