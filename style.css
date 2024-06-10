@@ -23,29 +23,18 @@ p, td {
 
 #text {
     margin: auto;
-    width: 64%;
+    width: 80em;
     height: 40vh;
     padding-top: 30vh;
     padding-bottom: 30vh;
 }
 
 #content {
-    padding-top: 5vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-bottom: 10vw;
+    padding: 5vw 25% 10vw;
+    width:80em;
 }
 
 a {
     color: inherit;
 
-}
-
-table {
-    border: 0px;
-    width: 100%;
-    margin: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: fit-content;
 }
