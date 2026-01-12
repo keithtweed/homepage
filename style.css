@@ -21,17 +21,21 @@ p, td {
     line-height: 160%;
 }
 
+body {
+    width: 100%
+}
+
 #text {
     margin: auto;
-    width: 80em;
+    width: 60%;
     height: 40vh;
     padding-top: 30vh;
     padding-bottom: 30vh;
 }
 
 #content {
-    padding: 5vw 25% 10vw;
-    width:80em;
+    padding: 1vw 15% 1vw;
+    width: 70%;
 }
 
 a {
